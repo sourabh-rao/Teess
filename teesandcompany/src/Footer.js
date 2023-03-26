@@ -16,38 +16,6 @@ function Footer() {
             </div>
           </section>
 
-          <section
-            className="d-flex justify-content-between p-4 text-white"
-            StyleHTMLAttributes="background-color: #21D192"
-          >
-            <div className="me-5 text-dark">
-              <span>Get connected with us on social networks :</span>
-            </div>
-
-            <div>
-              <a href="/" className="text-white me-4">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="/" className="text-white me-4">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="/" className="text-white me-4">
-                <i className="fab fa-google"></i>
-              </a>
-              <a href="/" className="text-white me-4">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a href="/" className="text-white me-4">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="/" className="text-white me-4">
-                <i className="fab fa-github"></i>
-              </a>
-            </div>
-          </section>
-          <div className="line">
-            <hr />
-          </div>
           <section className="">
             <div className="container text-center text-md-start mt-5">
               <div className="row mt-3">

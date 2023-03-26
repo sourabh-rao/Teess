@@ -6,11 +6,15 @@
 
 .text-dark {
     width: 100%;
-    background: #38FF12;
+    background: rgb(156, 235, 235);
     text-decoration: none;
     text-align: justify;
 }
 
 .para {
     text-align: justify;
+}
+
+.hori{
+    align-items: center;
 }

@@ -34,7 +34,12 @@ function navbar() {
               </li>
               <li className="nav-item ">
                 <a className="nav-link mr-2" href="/">
-                  ABOUT US
+                  ABOUT
+                </a>
+              </li>
+              <li className="nav-item ">
+                <a className="nav-link mr-2" href="/">
+                  CONTACT
                 </a>
               </li>
               <li className="nav-item ">
@@ -64,7 +69,7 @@ function navbar() {
               <input
                 type="text"
                 className="form-control"
-                placeholder="Search for Products Branda and More"
+                placeholder="Search Product"
               />
             </div>
           </div>
