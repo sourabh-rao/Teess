@@ -1,7 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import './Footer'
-import { StyleHTMLAttributes } from "react";
+import "./Footer";
+import "./Footer.css";
+
+// import { StyleHTMLAttributes } from "react";
 
 function Footer() {
   return (
@@ -11,14 +13,14 @@ function Footer() {
           className="text-center text-lg-start text-dark"
           StyleHTMLAttributes="background-color: #ECEFF1"
         >
-          <section
+          {/* <section
             className="d-flex justify-content-between p-4 text-white"
             StyleHTMLAttributes="background-color: #21D192"
           >
             <div className="me-5">
               <span>Get connected with us on social networks:</span>
             </div>
-
+ 
             <div>
               <a href="/" className="text-white me-4">
                 <i className="fab fa-facebook-f"></i>
@@ -39,21 +41,26 @@ function Footer() {
                 <i className="fab fa-github"></i>
               </a>
             </div>
-          </section>
-
+          </section> */}
+          <div className="line">
+            <hr />
+          </div>
           <section className="">
             <div className="container text-center text-md-start mt-5">
               <div className="row mt-3">
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold">Company name</h6>
+                  <h6 className="text-uppercase fw-bold">Tees And Company</h6>
                   <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    StyleHTMLAttributes="width: 60px; background-color: #7c4dff; height: 2px"
+                    className="mb-4 mt-0 d-inline-block mx-auto "
+                    
                   />
-                  <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                  <p className="para">
+                    Tees&Company (T&C) is a registered brand which customised a
+                    schools and colleges dresses for the students, various types
+                    jerseys for different sports and officials t shirts for
+                    advertising, in the best price. T&C is a concept of youths
+                    for designing a various types of ideas through t shirts in
+                    all over india. 
                   </p>
                 </div>
 
@@ -65,52 +72,62 @@ function Footer() {
                   />
                   <p>
                     <a href="#!" className="text-dark">
-                      MDBootstrap
+                      Biowash cotton 190 to 200 GSM
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      MDWordPress
+                      2way lycra 170 to 180 GSM
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      BrandFlow
+                      4way lycra  220 to 230 GSM
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      Bootstrap Angular
+                      Parasuit 230 to 240 GSM
+                    </a>
+                  </p>
+                  <p>
+                    <a href="#!" className="text-dark">
+                      PP 150 to 160 GSM
                     </a>
                   </p>
                 </div>
 
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold">Useful links</h6>
+                  <h6 className="text-uppercase fw-bold">Products</h6>
                   <hr
                     className="mb-4 mt-0 d-inline-block mx-auto"
                     StyleHTMLAttributes="width: 60px; background-color: #7c4dff; height: 2px"
                   />
                   <p>
                     <a href="#!" className="text-dark">
-                      Your Account
+                      Azlone (squirt absorbing) 170 to 180 GSM
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      Become an Affiliate
+                      Dryfit  170 to 180 GSM
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      Shipping Rates
+                      Metty cotton  220 to 230
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      Help
+                      Metty spun 200 to 210 GSM
                     </a>
                   </p>
+                  <p>
+                    <a href="#!" className="text-dark">
+                      Hozri cotton  240 to 250 GSM
+                    </a>
+                  </p>{" "}
                 </div>
 
                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -120,8 +137,7 @@ function Footer() {
                     StyleHTMLAttributes="width: 60px; background-color: #7c4dff; height: 2px"
                   />
                   <p>
-                    <i className="fas fa-home mr-3"></i> New York, NY 10012, US
-                  </p>
+                    <i className="fas fa-home mr-3"></i> Triveni Residency ghwarighat road Jabalpur , Madhya Pradesh                  </p>
                   <p>
                     <i className="fas fa-envelope mr-3"></i> info@example.com
                   </p>
@@ -140,8 +156,8 @@ function Footer() {
             StyleHTMLAttributes="background-color: rgba(0, 0, 0, 0.2)"
           >
             © 2020 Copyright:
-            <a className="text-dark" href="https://mdbootstrap.com/">
-              MDBootstrap.com
+            <a className="text-dark" href="/">
+              Tees & Company
             </a>
           </div>
         </footer>

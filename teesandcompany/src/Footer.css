@@ -1,0 +1,14 @@
+.line{
+    color: green;
+    width: 100%;
+}
+
+.text-dark{
+    background: #38FF12;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.para{
+    text-align: justify;
+}
