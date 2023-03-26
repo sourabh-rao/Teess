@@ -8,9 +8,7 @@ function navbar() {
         <ul class="show-dropdown main-navbar">
             <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
             <li>
-            {/* { <div className="App-logo"> */}
                <img src={logo} className="App-logo" alt="logo" />
-                {/* </div>} */}
             </li>
             <li>
                 <i class="fas fa-tachometer-alt"></i>Dashboard
