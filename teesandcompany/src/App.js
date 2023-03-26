@@ -7,7 +7,10 @@ function App() {
   <div className='sr'>
 
     <div>
-      {navbar()},
+      {navbar()}
+      <div className='space'>
+
+      </div>
       {Footer()}
     </div>
   </div>

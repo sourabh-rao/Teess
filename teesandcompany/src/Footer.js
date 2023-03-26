@@ -3,8 +3,6 @@ import React from "react";
 import "./Footer";
 import "./Footer.css";
 
-// import { StyleHTMLAttributes } from "react";
-
 function Footer() {
   return (
     <div>
@@ -13,14 +11,20 @@ function Footer() {
           className="text-center text-lg-start text-dark"
           StyleHTMLAttributes="background-color: #ECEFF1"
         >
-          {/* <section
+            <section> 
+            <div className="line">
+                <hr/>
+            </div>
+            </section>
+            
+          <section
             className="d-flex justify-content-between p-4 text-white"
             StyleHTMLAttributes="background-color: #21D192"
           >
-            <div className="me-5">
+            <div className="me-5 text-dark">
               <span>Get connected with us on social networks:</span>
             </div>
- 
+
             <div>
               <a href="/" className="text-white me-4">
                 <i className="fab fa-facebook-f"></i>
@@ -41,7 +45,7 @@ function Footer() {
                 <i className="fab fa-github"></i>
               </a>
             </div>
-          </section> */}
+          </section>
           <div className="line">
             <hr />
           </div>
@@ -50,17 +54,14 @@ function Footer() {
               <div className="row mt-3">
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold">Tees And Company</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto "
-                    
-                  />
+                  <hr className="mb-4 mt-0 d-inline-block mx-auto " />
                   <p className="para">
                     Tees&Company (T&C) is a registered brand which customised a
                     schools and colleges dresses for the students, various types
-                    jerseys for different sports and officials t shirts for
+                    jerseys for different sports and officials t-shirts for
                     advertising, in the best price. T&C is a concept of youths
-                    for designing a various types of ideas through t shirts in
-                    all over india. 
+                    for designing a various types of ideas through t-shirts in
+                    all over india.
                   </p>
                 </div>
 
@@ -82,7 +83,7 @@ function Footer() {
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      4way lycra  220 to 230 GSM
+                      4way lycra 220 to 230 GSM
                     </a>
                   </p>
                   <p>
@@ -110,12 +111,12 @@ function Footer() {
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      Dryfit  170 to 180 GSM
+                      Dryfit 170 to 180 GSM
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      Metty cotton  220 to 230
+                      Metty cotton 220 to 230
                     </a>
                   </p>
                   <p>
@@ -125,7 +126,7 @@ function Footer() {
                   </p>
                   <p>
                     <a href="#!" className="text-dark">
-                      Hozri cotton  240 to 250 GSM
+                      Hozri cotton 240 to 250 GSM
                     </a>
                   </p>{" "}
                 </div>
@@ -137,16 +138,16 @@ function Footer() {
                     StyleHTMLAttributes="width: 60px; background-color: #7c4dff; height: 2px"
                   />
                   <p>
-                    <i className="fas fa-home mr-3"></i> Triveni Residency ghwarighat road Jabalpur , Madhya Pradesh                  </p>
+                    <i className="fas fa-home mr-3"></i> Triveni Residency
+                    ghwarighat road Jabalpur , Madhya Pradesh{" "}
+                  </p>
                   <p>
                     <i className="fas fa-envelope mr-3"></i> info@example.com
                   </p>
                   <p>
-                    <i className="fas fa-phone mr-3"></i> + 01 234 567 88
+                    <i className="fas fa-phone mr-3"></i> +91 8839249259
                   </p>
-                  <p>
-                    <i className="fas fa-print mr-3"></i> + 01 234 567 89
-                  </p>
+
                 </div>
               </div>
             </div>
