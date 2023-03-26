@@ -11,11 +11,11 @@ i {
 	margin-right: 10px;
 }/* ---------horizontal-navbar-menu-----------*/
 #navbar-animmenu {
-	background: #5161ce;
+	background: #38ff12;
 	float: left;
 	overflow: hidden;
 	position: relative;
-	padding: 10px 0px;
+	padding: 5px 100px;
   width: 100%;
 }
 #navbar-animmenu ul{
@@ -24,16 +24,16 @@ i {
   
 }
 
-#navbar-animmenu ul li a i{
+/* #navbar-animmenu ul li a i{
 	margin-right: 10px;
-}
+} */
 
-#navbar-animmenu li {
+ #navbar-animmenu li {
 	list-style-type: none;
 	float: left;
-}
+} 
 
-#navbar-animmenu ul li a{
+/* #navbar-animmenu ul li a{
 	color: rgba(255,255,255,0.5);
     text-decoration: none;
     font-size: 15px;
@@ -43,16 +43,16 @@ i {
     transition-duration:0.6s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
     position: relative;
-}
+} */
 
-#navbar-animmenu>ul>li.active>a{
-	color: #5161ce;
+/* #navbar-animmenu>ul>li.active>a{
+	color: #ce5166;
 	background-color: transparent;
 	transition: all 0.7s;
-}
+} */
 
 
-#navbar-animmenu a:not(:only-child):after {
+/* #navbar-animmenu a:not(:only-child):after {
 	content: "\f105";
 	position: absolute;
 	right: 20px;
@@ -111,4 +111,14 @@ i {
 .hori-selector .left:before{
 	bottom: 0;
     left: -25px;
+}  */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  width: 10%;
 }
