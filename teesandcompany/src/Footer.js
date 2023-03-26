@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import "./Footer";
 import "./Footer.css";
 
 function Footer() {
@@ -22,7 +21,7 @@ function Footer() {
             StyleHTMLAttributes="background-color: #21D192"
           >
             <div className="me-5 text-dark">
-              <span>Get connected with us on social networks:</span>
+              <span>Get connected with us on social networks :</span>
             </div>
 
             <div>
