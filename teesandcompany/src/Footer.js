@@ -11,12 +11,12 @@ function Footer() {
           className="text-center text-lg-start text-dark"
           StyleHTMLAttributes="background-color: #ECEFF1"
         >
-            <section> 
+          <section>
             <div className="line">
-                <hr/>
+              <hr />
             </div>
-            </section>
-            
+          </section>
+
           <section
             className="d-flex justify-content-between p-4 text-white"
             StyleHTMLAttributes="background-color: #21D192"
@@ -142,12 +142,12 @@ function Footer() {
                     ghwarighat road Jabalpur , Madhya Pradesh{" "}
                   </p>
                   <p>
-                    <i className="fas fa-envelope mr-3"></i> info@example.com
+                    <i className="fas fa-envelope mr-3"></i>{" "}
+                    teesandcompany@gmail.co.in
                   </p>
                   <p>
                     <i className="fas fa-phone mr-3"></i> +91 8839249259
                   </p>
-
                 </div>
               </div>
             </div>

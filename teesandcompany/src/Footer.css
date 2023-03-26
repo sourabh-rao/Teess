@@ -1,15 +1,15 @@
-.line{
+.line {
     color: green;
     width: 100%;
     height: 10px;
 }
 
-.text-dark{
+.text-dark {
     background: #38FF12;
     text-decoration: none;
     text-align: justify;
 }
 
-.para{
+.para {
     text-align: justify;
 }
