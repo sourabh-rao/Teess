@@ -1,6 +1,6 @@
 import "./App.css";
 import Footer from "./Footer";
-import navbar from "./Navbar";
+import navbar from "./navbar";
 
 function App() {
   return (
