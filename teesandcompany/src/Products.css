@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 
+
 .first{
     position: relative;
 }
@@ -12,7 +13,7 @@
     --font2: 'Fira Sans Extra Condensed', sans-serif;
     --font3: 'Roboto', sans-serif;
 
-    --btnbg: #ffcc00;
+    --btnbg: #74f959;
     --btnfontcolor: rgb(61, 61, 61);
     --btnfontcolorhover: rgb(255, 255, 255);
     --btnbghover: #ffc116;
@@ -37,7 +38,8 @@
     background: #fff;
     box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
     transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
-    border: 0;
+    border: 20;
+    border-color: #38FF12;
     border-radius: 1rem;
 }
 
