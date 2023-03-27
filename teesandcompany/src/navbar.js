@@ -42,36 +42,16 @@ function navbar() {
                   CONTACT
                 </a>
               </li>
-              <li className="nav-item ">
-                <a className="nav-link mr-2" href="/">
-                  MEN
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link mr-2" href="/">
-                  WOMEN
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link mr-2" href="/">
-                  KIDS
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link mr-2" href="/">
-                  EVENTS
-                </a>
-              </li>
             </ul>
 
-            <div className="form-group has-search flex-grow-1">
+            {/* <div className="form-group has-search flex-grow-1">
               <span className="fa fa-search form-control-feedback"></span>
               <input
                 type="text"
                 className="form-control"
                 placeholder="Search Product"
               />
-            </div>
+            </div> */}
           </div>
         </nav>
       </div>
