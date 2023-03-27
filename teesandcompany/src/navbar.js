@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "./Teeslogo.jpg";
 
 function navbar() {
+  
   return (
     <div className="bg-green">
       <div className="container-fluid">
